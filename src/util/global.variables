@@ -1,0 +1,11 @@
+import UserResponse from "../models/user/user";
+
+export default class GlobalVariables {
+    constructor() {
+        this.imageURL = "https://abcstars.biggstars.com/Images/UserAvatar/";
+    }
+
+    get ImageURL() {
+        return this.ImageURL;
+    }
+}
